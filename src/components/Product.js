@@ -18,8 +18,7 @@ const Product = () => {
     // fetch("https://fakestoreapi.com/products")
     //   .then((data) => data.json())
     //   .then((result) => getProducts(result));
-    // eslint-disable-next-line
-  }, []);
+  }, [dispatch]);
 
 if(status=== StatusCode.LOADING){
   return <p>loading...</p>
